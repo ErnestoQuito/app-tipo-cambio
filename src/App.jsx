@@ -8,7 +8,7 @@ function App() {
   
   return (
     <div>
-      <h2>Aplicación para el tipo de cambio</h2>
+      <h2>Tipo de cambio</h2>
       <Exchange />
     </div>
   );
