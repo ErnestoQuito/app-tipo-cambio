@@ -6,7 +6,7 @@ export function Hour() {
         month: "2-digit",
         day: "2-digit",
         hour: "2-digit",
-        minute: "2-digit"
+        minute: "2-digit",
     };
     const today = new Date().toLocaleString(
         LOCALE,
@@ -16,7 +16,7 @@ export function Hour() {
     return (
         <h4>
             <span>Tipo de cambio a las: </span>
-            <span>{ today }</span>
+            <span>{ today.replace(",", "") }</span>
         </h4>
     )
 }

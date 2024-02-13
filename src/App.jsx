@@ -8,7 +8,7 @@ import "./App.css";
 function App() {
   
   return (
-    <div>
+    <div className="content-main">
       <h2>Registro de tipo de cambio</h2>
       <Hour />
       <Exchange />
