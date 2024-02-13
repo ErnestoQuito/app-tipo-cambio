@@ -1,0 +1,42 @@
+.form-cont-exchange {
+    background: white;
+    color: white;
+    width: 50%;
+    border: 5px;
+}
+
+.exchange-title {
+    background: #273746;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+
+.exchange-body {
+    background: #566573;
+    padding: 5px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.exchange-item {
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.exchange-footer {
+    background: #273746;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 80px;
+}
